@@ -1,0 +1,140 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "微風與夢境"
+theme = "Strata"
+disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+    name = "花間"
+    description = "字裡畫間，微風與夢境的沉眠之地。"
+    email = "a1456080445@gmail.com"
+    date_format = "2024-07-10"
+    show_read_time = false
+    custom_js = []
+    custom_css = []
+
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**我叫花間**。如果有什麽想説的可以透過下方的郵件方式給我留言/分享心情，感謝你！"
+		# The icons will be shown if you enter your username
+		twitter = "zxykiyou"
+		
+
+		copyright = [
+			"&copy; John Doe",
+			"Design: [HTML5 UP](//html5up.net)",
+			"封圖: 花間"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "PURPOSE｜關於用途"
+		content = "這是一個用來作爲帝都騎殺產出/漢化存檔的博客（也會偶爾更新一些同人厠紙讀物repo）因爲一些衆所周知的原因，以及爲了滿足一些非常私人的囤積倉鼠癖所以搭了這個站。"
+
+	[params.portfolio]
+		hide  = false
+		title = "ARCHIVE｜存檔"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/01.jpg"
+			thumb = "thumbs/01.jpg"
+			title = "《あの夏に咲け》"
+			description = "給同名[手書](https://www.bilibili.com/video/BV1J7421R7d7/?spm_id_from=333.337.top_right_bar_window_history.content.click&vd_source=9a5566bb7f0882075c35b917e9d1bcf2)繪製的封圖（非常詐騙）因爲這個手書真的做了很久，大概有兩個半年月，所以請讓我把它放在最前面。"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/02.jpg"
+			thumb = "thumbs/02.jpg"
+			title = "文久2年"
+			description = "溫柔善良的**housei6**老師的約稿，請不私自下載保存。"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			title = "不負責任摸魚一則"
+			description = "起因是之前看到有人説覆面色就色在，不摘不方便，摘下來又太誘...呵呵。"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			title = "《死別》"
+			description = "有點太[爛大街的手書](https://www.bilibili.com/video/BV1gi421i7hy/?pop_share=1)，不要太嚴格要求了。"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/05.jpg"
+			thumb = "thumbs/05.jpg"
+			title = "槍龍馬情人節劇情造謠(請從右往左讀)"
+			description = "不好意思不知道爲什麽不小心把以藏畫得那麽萌。"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
+			title = "萌1也是1"
+			description = "做《あの夏に咲け》的時候的隨手摸魚。"
+
+
+	[params.recentposts]
+		hide  = false
+		title = "來對我説些什麽吧！"
+
+	[params.contact]
+		hide  = false
+		title = "Get In Touch"
+		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+
+		# This can be exact coordinates or a searchable address in google maps
+		gmaps_address = "39.7889055,-120.5443524"
+		address = [
+			"1234 Somewhere Rd.",
+			"Nashville, TN 00000",
+			"United States"
+		]
+		phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "a1456080445@gmail.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "主頁"
+	url  = "http://localhost:1313//"
+	weight = 1
+
+[[menu.main]]
+	name = "自掃歸檔"
+	url  = "http://localhost:1313/about//"
+	weight = 1
+
+[[menu.main]]
+	name = "同人文repo"
+	url  = "http://localhost:1313/repo//"
+	weight = 2
