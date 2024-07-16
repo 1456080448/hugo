@@ -126,15 +126,15 @@ paginate = 10
 # Menu links that appear on the left sidebar
 [[menu.main]]
 	name = "主頁"
-	url  = "http://localhost:1313//"
+	url  = "/"
 	weight = 1
 
 [[menu.main]]
 	name = "自掃歸檔"
-	url  = "http://localhost:1313/about//"
+	url  = "/about/"
 	weight = 1
 
 [[menu.main]]
 	name = "同人文repo"
-	url  = "http://localhost:1313/repo//"
+	url  = "/repo/"
 	weight = 2
