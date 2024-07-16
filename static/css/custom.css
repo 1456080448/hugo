@@ -1,0 +1,29 @@
+section div.row {
+    margin-top: 16px;
+}
+
+#header h1 p {
+    text-align: justify;
+}
+
+#header h1 p:first-child {
+    font-size: xx-large;
+}
+
+#main p img {
+    /* 最大寬度 */
+    max-width: 100%;
+    /* 最大高度 */
+    max-height: 360px;
+}
+
+@media screen and (max-width: 980px) {
+    /* 小屏幕竪排時的圖片設置 */
+    #main p img {
+        /* 最大寬度 */
+        max-width: 100%;
+        /* 最大高度，none是橫向占滿，設置了具體值就是不超過最大值 */
+        max-height: none;
+        /* max-height: 360px; */
+    }
+}

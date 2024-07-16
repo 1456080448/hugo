@@ -15,7 +15,7 @@ paginate = 10
     date_format = "2024-07-10"
     show_read_time = false
     custom_js = []
-    custom_css = []
+    custom_css = ["css/custom.css"]
 
 
 
@@ -23,7 +23,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**我叫花間**。如果有什麽想説的可以透過下方的郵件方式給我留言/分享心情，感謝你！"
+		bio = "**我叫花間**\n\n如果有什麽想説的可以透過下方的郵件方式給我留言/分享心情，感謝你！"
 		# The icons will be shown if you enter your username
 		twitter = "zxykiyou"
 		
