@@ -27,3 +27,7 @@ section div.row {
         /* max-height: 360px; */
     }
 }
+
+#header {
+    padding: 8em 4em 0 4em;
+}
